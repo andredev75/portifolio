@@ -27,6 +27,12 @@ body
     height: 100vh;
     color: #000000;
 }
+
+.container
+{
+    margin: 0 16px;
+}
+
 .title
 {
     font-size: 36px;
@@ -36,6 +42,13 @@ body
 li
 {
     list-style: none;
+}
+
+.profile
+{
+    max-width: 452px;
+    box-sizing: border-box;
+    margin: 0 auto;
 }
 
 
@@ -54,6 +67,8 @@ li
     border-radius: 50%;
     margin: 0 auto 2rem auto;
 }
+
+
 
 .profile span
 {
@@ -88,7 +103,7 @@ li
 .portifolio li
 {
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: 1fr 1fr;
     text-align: left;
     gap: 1rem;
     color: #000000;
@@ -105,8 +120,7 @@ li
 
 .img-port
 {
-    width: 340px;
-    height: 250px;
+    
     border-radius: 10px;
 }
 
@@ -115,5 +129,47 @@ li
     font-size: 24px;
     color: white;
     text-shadow: 2px 2px 16px black;
-    margin: 50vh;
+    margin-top: 50vh;
+    padding-bottom: 50vh;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    body
+    {
+        background-attachment: initial;
+        background-size: contain;
+        background-color: #0a345c;
+    }
+    .box
+    {
+        padding: 2rem;
+        margin-top: 4rem;
+        border-radius: 30px;
+    }
+    .box:first-child
+    {
+        padding: 3rem;
+    }
+    .portifolio ul
+    {
+        margin-top: 1rem;
+    }
+    .portifolio li
+    {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    .portifolio li div
+    {
+        max-width: 448px;
+    }
+    .copyrigth
+    {
+        font-size: 18px;
+        color: rgb(255, 255, 255);
+        text-shadow: none;
+        margin: 0;
+        padding: 4rem 0;
+    }
 }
