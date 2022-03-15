@@ -18,6 +18,7 @@ img
 body
 {
     font-family: 'Source Code Pro', monospace;
+    background-color: #0a345c;
     background: url("../img/bg.jpg") no-repeat top center;
     background-attachment: fixed;
     background-size: cover;
