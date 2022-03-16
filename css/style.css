@@ -85,6 +85,12 @@ li
     margin-top: 2rem;
     margin-bottom: 4rem;
 }
+.email-link
+{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
 
 .redes-sociais
 {
@@ -132,7 +138,7 @@ li
 {
     text-decoration: none;
     background: #555;
-    border: 2px solid black;
+    border: 1px solid black;
     padding: 4px;
     color: rgb(255, 255, 255);
     border-radius: 5px;
